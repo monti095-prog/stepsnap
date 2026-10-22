@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StepSnap: free step-by-step guide maker for Chrome, Edge and Brave</title>
+<meta name="description" content="Record your clicks and typing, get a step-by-step guide with screenshots and a PDF. Free browser extension, no sign-in, everything stays on your computer.">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/stepsnap/">
+<meta property="og:title" content="StepSnap: free step-by-step guide maker">
+<meta property="og:description" content="Do the task once. Get the guide and PDF automatically. No sign-in.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/stepsnap/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"StepSnap","applicationCategory":"BrowserApplication","operatingSystem":"Chrome, Edge, Brave","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free browser extension that records clicks and typing and creates a step-by-step guide with screenshots and a PDF.","downloadUrl":"https://github.com/YOUR-USERNAME/stepsnap/releases/latest/download/stepsnap-extension.zip"}
+</script>
+<style>
+:root{--bg:#fbfaf8;--ink:#1f2937;--mute:#5b6472;--line:#e6e2db;--red:#dc2626;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#14161a;--ink:#eceef2;--mute:#9aa3b2;--line:#2a2e36;--red:#f05252;--card:#1b1e24}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:64px 20px 80px}
+h1{font:700 clamp(2.2rem,6vw,3.4rem)/1.1 "Iowan Old Style",Palatino,Georgia,serif;margin:0 0 18px;letter-spacing:-.01em}
+h2{font:700 1.5rem/1.2 "Iowan Old Style",Palatino,Georgia,serif;margin:56px 0 14px}
+p{margin:0 0 14px}.lead{font-size:1.2rem;color:var(--mute);max-width:34em}
+.btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:700;padding:13px 22px;border-radius:10px;margin:10px 12px 8px 0}
+.btn.alt{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.btn:focus-visible,a:focus-visible{outline:3px solid #2563eb;outline-offset:3px}
+.note{font-size:.92rem;color:var(--mute)}
+img.demo{width:100%;border:1px solid var(--line);border-radius:12px;margin-top:28px}
+ol.steps{list-style:none;counter-reset:s;padding:0;margin:0}
+ol.steps li{counter-increment:s;position:relative;padding:14px 16px 14px 58px;margin-bottom:10px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+ol.steps li::before{content:counter(s);position:absolute;left:14px;top:12px;width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;font-weight:700;display:grid;place-items:center}
+code{background:var(--card);border:1px solid var(--line);padding:1px 6px;border-radius:5px;font-size:.9em}
+ul{padding-left:20px}li{margin-bottom:6px}
+a{color:var(--red)}footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);color:var(--mute);font-size:.92rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>Do the task once. Get the guide.</h1>
+  <p class="lead">StepSnap records your clicks and typing, adds a screenshot to every step, and turns it all into a guide and a PDF. No account. Nothing leaves your computer.</p>
+  <a class="btn" href="https://github.com/YOUR-USERNAME/stepsnap/releases/latest/download/stepsnap-extension.zip">Download for Chrome, Edge, Brave</a>
+  <a class="btn alt" href="https://github.com/YOUR-USERNAME/stepsnap">View source on GitHub</a>
+  <p class="note">Free and open source. Install takes about a minute.</p>
+  <img class="demo" src="demo.gif" alt="StepSnap recording a task and creating a step-by-step guide" onerror="this.remove()">
+
+  <h2>Install in five steps</h2>
+  <ol class="steps">
+    <li>Download the zip above and extract it. Keep the extracted folder.</li>
+    <li>Open <code>chrome://extensions</code> (in Edge, <code>edge://extensions</code>).</li>
+    <li>Turn on <strong>Developer mode</strong> in the top-right corner.</li>
+    <li>Click <strong>Load unpacked</strong> and choose the extracted folder, the one with <code>manifest.json</code> inside.</li>
+    <li>Pin StepSnap from the puzzle-piece menu, click it, and press <strong>Start recording</strong>.</li>
+  </ol>
+
+  <h2>What you get</h2>
+  <ul>
+    <li>A numbered step for every click, typed entry, dropdown choice, and Enter press.</li>
+    <li>A screenshot per step with a red box around the element you used.</li>
+    <li>An editable guide: rename, reorder, or delete steps.</li>
+    <li>A PDF that downloads automatically when you stop recording.</li>
+  </ul>
+
+  <h2>Your data stays with you</h2>
+  <p>StepSnap has no server and no sign-in. Steps and screenshots are kept in your browser until you discard them, and password fields are never recorded. Read the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>StepSnap is released under the MIT license. <a href="https://github.com/YOUR-USERNAME/stepsnap/issues">Report a problem</a></footer>
+</main>
+</body>
+</html>

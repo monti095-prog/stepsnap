@@ -1,0 +1,33 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>StepSnap guide</title>
+<style>
+  body{margin:0;background:#f3f4f6;font:15px/1.5 system-ui,"Segoe UI",Roboto,sans-serif;color:#1f2937}
+  header{position:sticky;top:0;z-index:2;display:flex;gap:12px;align-items:center;padding:12px 24px;background:#fff;border-bottom:1px solid #e5e7eb}
+  #title{flex:1;font:700 20px inherit;font-family:inherit;border:1px solid transparent;border-radius:6px;padding:6px 8px}
+  #title:hover,#title:focus{border-color:#d1d5db}
+  button{font:600 14px inherit;font-family:inherit;padding:9px 14px;border:0;border-radius:8px;cursor:pointer;background:#e5e7eb;color:#1f2937}
+  button:focus-visible,input:focus-visible{outline:2px solid #2563eb;outline-offset:2px}
+  #pdf{background:#dc2626;color:#fff}#pdf:disabled{opacity:.4;cursor:default}
+  main{max-width:900px;margin:24px auto;padding:0 16px}
+  .card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:14px;margin-bottom:16px}
+  .row{display:flex;gap:8px;align-items:center;margin-bottom:10px}
+  .n{flex:none;width:30px;height:30px;border-radius:50%;background:#dc2626;color:#fff;font-weight:700;display:grid;place-items:center}
+  .t{flex:1;font:600 16px inherit;font-family:inherit;border:1px solid transparent;border-radius:6px;padding:6px 8px}
+  .t:hover,.t:focus{border-color:#d1d5db}
+  .row button{padding:6px 10px;background:#f3f4f6}
+  canvas{display:block;width:100%;height:auto;border:1px solid #e5e7eb;border-radius:6px}
+  #empty{text-align:center;color:#6b7280;margin-top:80px}
+  #status{color:#6b7280;font-size:13px}
+</style>
+<header>
+  <input id="title" aria-label="Guide title">
+  <span id="status"></span>
+  <button id="discard">Discard</button>
+  <button id="pdf">Download PDF</button>
+</header>
+<main>
+  <div id="empty" hidden>No steps yet. Click the StepSnap icon and press Start recording.</div>
+  <div id="steps"></div>
+</main>
+<script src="guide.js"></script>

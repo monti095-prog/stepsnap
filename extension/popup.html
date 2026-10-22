@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body{margin:0;width:260px;padding:16px;font:14px/1.4 system-ui,"Segoe UI",Roboto,sans-serif;color:#1f2937}
+  h1{font-size:16px;margin:0 0 4px}
+  p{margin:0 0 12px;color:#6b7280;font-size:13px}
+  button{display:block;width:100%;margin:0 0 8px;padding:10px;border:0;border-radius:8px;font:600 14px inherit;font-family:inherit;cursor:pointer}
+  .go{background:#dc2626;color:#fff}.alt{background:#eef0f4;color:#1f2937}.stop{background:#1f2937;color:#fff}
+  button:focus-visible{outline:2px solid #2563eb;outline-offset:2px}
+  label{display:flex;gap:6px;align-items:center;font-size:13px;margin-top:6px}
+  [hidden]{display:none!important}
+</style>
+<h1>StepSnap</h1>
+<div id="idle">
+  <p>Click Start, do your task, then Stop. You get a guide and a PDF.</p>
+  <button class="go" id="start">Start recording</button>
+  <button class="alt" id="open" hidden>Open last guide</button>
+  <label><input type="checkbox" id="autoPdf"> Download PDF automatically</label>
+</div>
+<div id="live" hidden>
+  <p>Recording… <b id="count">0</b> steps captured.</p>
+  <button class="alt" id="pause">Pause</button>
+  <button class="stop" id="stop">Stop and create guide</button>
+</div>
+<script src="popup.js"></script>
