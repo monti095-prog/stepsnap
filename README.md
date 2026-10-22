@@ -7,11 +7,11 @@ Record your clicks and typing while you work through a task. StepSnap turns them
 - **Editable guide:** rename steps, reorder, delete, then download the PDF.
 - **Works on any website**, including menus, chat boxes, and iframes.
 
-**Website:** https://YOUR-USERNAME.github.io/stepsnap/
+**Website:** https://monti095-prog.github.io/stepsnap/
 
 ## Install (about 1 minute)
 
-1. [Download the latest zip](https://github.com/YOUR-USERNAME/stepsnap/releases/latest/download/stepsnap-extension.zip) and extract it. Keep the extracted folder; Chrome loads the extension from it.
+1. [Download the latest zip](https://github.com/monti095-prog/stepsnap/releases/latest/download/stepsnap-extension.zip) and extract it. Keep the extracted folder; Chrome loads the extension from it.
 2. Open `chrome://extensions` (in Edge: `edge://extensions`).
 3. Turn on **Developer mode** (top right).
 4. Click **Load unpacked** and choose the extracted folder (the one containing `manifest.json`).
@@ -26,7 +26,7 @@ Record your clicks and typing while you work through a task. StepSnap turns them
 
 ## Privacy
 
-StepSnap never sends data anywhere. Steps and screenshots are stored in your browser until you discard them. Password fields are never recorded. See the [privacy policy](https://YOUR-USERNAME.github.io/stepsnap/privacy.html).
+StepSnap never sends data anywhere. Steps and screenshots are stored in your browser until you discard them. Password fields are never recorded. See the [privacy policy](https://monti095-prog.github.io/stepsnap/privacy.html).
 
 ## Known limits
 
